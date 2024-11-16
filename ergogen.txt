@@ -1,0 +1,152 @@
+meta:
+  engine: 4.0.0
+  name: le_capybara
+  version: 0.1
+  author: sporkus
+  url: https://github.com/sporkus/
+
+presets:
+  mx_spaced:
+    capx: 18.1
+    capy: capx
+    kx: 19.05
+    ky: kx
+    edge_cut_padding: 1
+    split_angle: 7
+    thumb_2nd_unit: 1.25
+    thumb_main_unit: 2
+    centerx: 24.347
+    centery: 5.202
+
+    originx: 120
+    originy: -100
+
+units:
+  $extends: presets.mx_spaced
+  edgex: capx/2 + edge_cut_padding
+  edgey: capy/2 + edge_cut_padding
+
+
+points:
+  zones.matrix:
+    mirror: &mirror
+      ref: matrix_inner_top
+      shift: [0, 0]
+      distance: 24.347 * 2
+    anchor.shift: [originx, originy]
+    rotate: -split_angle
+    key:
+      width: capx
+      height: capy
+      spread: kx
+      padding: ky
+      bind: [edgex, edgey]
+    rows:
+      bottom:
+      home:
+      top:
+    columns:
+      pinky:
+        rows.bottom.skip: true
+      ring.key:
+        stagger: 0.5ky
+      middle.key:
+        stagger: 0.25ky
+      index.key:
+        stagger: -0.25ky
+      inner:
+        key.stagger: -0.5ky
+        rows.bottom.skip: true
+
+  zones.2thumbs:
+    mirror: *mirror
+    key:
+      $extends: points.zones.matrix.key
+      width: 1 * capx
+    anchor:
+      - ref: matrix_ring_bottom
+        shift: [kx * (1 - 0.25/2) , -ky]
+    columns:
+      2nd:
+        key.width: 1.25 * capx
+      main:
+        key.width: 2 * capx
+        key.shift: [kx * 1.25 / 2, 0]
+
+outlines:
+  _switch_cutout:
+    - what: rectangle
+      where:
+        - /matrix_.*/
+        - /.thumb.*/
+        - /knob/
+      size: [10, 10]
+      bound: false
+  _switch_pos:
+    - what: circle
+      where:
+        - /matrix_.*/
+        - /.*thumb.*/
+        - /knob/
+      radius: 1
+      bound: false
+  _switch_comment:
+    - what: rectangle
+      operation: stack
+      where:
+        - /matrix_.*/
+        - /.thumb.*/
+        - /knob/
+      size: [kx, ky]
+      bound: false
+  _keycaps:
+    - what: rectangle
+      where:
+        - /matrix_.*/
+        - /.*thumb.*/
+      size: [capx, capy]
+      bound: false
+  _edge_cut:
+    - what: rectangle
+      where:
+        - /matrix_/
+      bound: true
+    - what: rectangle
+      where: /thumb/
+      size: [1, 1]
+      bound: true
+
+  edge_cut:
+    - name: _edge_cut
+      fillet: 3.5
+  preview:
+    - edge_cut
+    - ^_switch_pos
+    - ^_switch_cutout
+    - ^_switch_comment
+
+  
+  kicad_ref:
+    - ^_switch_pos
+    - ^_switch_comment
+
+  kicad_center:
+    - ^_switch_pos
+
+
+pcbs.le_capybara:
+  outlines.main:
+    outline: kicad_ref
+    layer: Eco2.User
+  footprints:
+    - what: mx
+      where:
+        - /matrix_.*/
+        - /.thumb.*/
+        - knob
+      params:
+        from: GND
+        to: "{{name}}"
+        reverse: true
+        keycaps: true
+
