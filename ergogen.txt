@@ -31,7 +31,7 @@ points:
   zones.matrix:
     mirror: &mirror
       ref: matrix_inner_top
-      shift: [0, 0]
+      shift: [0, .5ky]
       distance: 24.347 * 2
     anchor.shift: [originx, originy]
     rotate: -split_angle
