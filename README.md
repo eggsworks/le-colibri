@@ -2,15 +2,11 @@
 
 Le Colibri is a 30-key unibody split keyboard inspired by Le Chiffre and the Hummingbird.
 
-![](render/image.png)
+![](photos/le-colibri.jpg)
 
-## Disclaimers
+## Disclaimer
 
-1. This keyboard came to me in a dream so I had to bring it into the waking world. It is not necessarily good. But here it is.
-
-2. ~~I am posting this on GitHub prior to actually receiving PCBs and printing the case and making sure everything works. Your mileage may vary. Good luck.~~
-
-   I have now gotten my PCBs and printed a case, and successfully assembled a keyboard. No firmware yet so still can't really be sure it works. More updates to come.
+This keyboard came to me in a dream so I had to bring it into the waking world. It is not necessarily good. But here it is.
 
 ## FAQ
 
@@ -33,6 +29,22 @@ The switchplates are obviously incompatible with a normal Chiffre. The in-plane 
 Screw the switchplate into the case before putting any switches in it - the PCB blocks a couple of the holes.
 
 The only support needed during printing is on the bottom case, near the outer edges of the screw holes.
+
+## Firmware
+
+Firmware is available in the [eggsworks zmk-config repo](https://github.com/eggsworks/zmk-config/).
+
+## Assembly
+
+![](photos/assembly.jpg)
+
+1. Solder the Xiao, with components facing the back side of the board, as pictured here. The intend of mid-mounting the Xiao is to put the USB port at the same height as it is on a normal Le Chiffre PCB, so try to get it lined up such that the top of the Xiao PCB lines up with the bottom of the Le Colibri PCB.
+2. Solder the diodes.
+3. Solder the sockets.
+4. Mount the switchplates to the top case using self-tapping M2 screws.
+5. Insert switches in the sockets to secure the PCB to the case.
+6. Flash firmware before closing up the bottom case.
+7. Add the bottom case to the assembly and secure it with self-tapping M3 screws.
 
 ## Acknowledgements
 
