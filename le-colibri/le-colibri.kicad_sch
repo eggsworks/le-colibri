@@ -884,6 +884,12 @@
 		(uuid "1333f9b2-579c-4c02-aabc-e0e322185710")
 	)
 	(junction
+		(at 30.48 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1457d049-1d57-461d-8606-96a2e8fb2ec5")
+	)
+	(junction
 		(at 48.26 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -908,10 +914,28 @@
 		(uuid "22f5409e-c849-420f-987d-c34a1341798a")
 	)
 	(junction
+		(at 162.56 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23839768-b2a3-4199-86ec-75739250fe94")
+	)
+	(junction
+		(at 55.88 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24fc925e-f0c6-4738-99ce-6747ad224268")
+	)
+	(junction
 		(at 114.3 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d4e7906-d617-4742-a5dd-ab3cd3306d6e")
+	)
+	(junction
+		(at 137.16 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4325639d-8898-42a8-a515-aadee7eee2d8")
 	)
 	(junction
 		(at 124.46 55.88)
@@ -924,6 +948,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "508a025c-4a9e-42df-a3f0-a44360ddc301")
+	)
+	(junction
+		(at 74.93 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5447aa0b-40bb-4f5c-9795-142de5af9a78")
 	)
 	(junction
 		(at 63.5 46.99)
@@ -948,6 +978,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5aa5a7bb-412a-4da8-a9e4-d9b2850311e2")
+	)
+	(junction
+		(at 113.03 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e2d20bd-9e55-4f1b-8793-17693f401d68")
 	)
 	(junction
 		(at 60.96 55.88)
@@ -1010,6 +1046,12 @@
 		(uuid "a383ff4f-61f9-4d25-a481-25665c2a676f")
 	)
 	(junction
+		(at 132.08 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4d879fd-3cfe-466d-a55c-23ca66d7a26c")
+	)
+	(junction
 		(at 50.8 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1058,10 +1100,22 @@
 		(uuid "bcdc782f-635e-4b2b-aaac-175978be84ed")
 	)
 	(junction
+		(at 157.48 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdc3ae24-76f8-4df2-aa99-8307ee69d5af")
+	)
+	(junction
 		(at 139.7 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be343e29-dbbc-4312-beac-7e944aed9138")
+	)
+	(junction
+		(at 118.11 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfcac586-e753-42c1-988f-54ed2e8a8df9")
 	)
 	(junction
 		(at 63.5 34.29)
@@ -1074,6 +1128,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0c53716-ab2e-4a19-ad3e-0be953e99d21")
+	)
+	(junction
+		(at 80.01 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5e5adda-f135-4b71-bd0e-522953890efb")
 	)
 	(junction
 		(at 139.7 34.29)
@@ -1118,10 +1178,22 @@
 		(uuid "e6c0b262-2d01-4cae-9d7f-79289cb8b616")
 	)
 	(junction
+		(at 35.56 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5846478-8303-47a0-962e-032ad8383677")
+	)
+	(junction
 		(at 114.3 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7e18d1f-b75e-4509-9e72-7acfc30f646c")
+	)
+	(junction
+		(at 60.96 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb9bfcdc-bb35-4ed7-9f94-0ce618b017ce")
 	)
 	(no_connect
 		(at 39.37 114.3)
@@ -1237,6 +1309,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 76.2) (xy 55.88 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e4d753-4948-49d3-80de-318c3940182e")
+	)
+	(wire
+		(pts
 			(xy 127 46.99) (xy 127 50.8)
 		)
 		(stroke
@@ -1244,6 +1326,16 @@
 			(type default)
 		)
 		(uuid "1992bd4f-11a0-441a-8750-07da4aa10012")
+	)
+	(wire
+		(pts
+			(xy 113.03 76.2) (xy 113.03 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a559980-dddd-4770-aeda-a8100b5a2d9b")
 	)
 	(wire
 		(pts
@@ -1337,6 +1429,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 81.28) (xy 137.16 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9a16c1-26d4-4603-9f7d-0e152d6bd970")
+	)
+	(wire
+		(pts
 			(xy 127 59.69) (xy 139.7 59.69)
 		)
 		(stroke
@@ -1377,6 +1479,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 81.28) (xy 60.96 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45104cf4-415a-4b45-8929-60532e946fa7")
+	)
+	(wire
+		(pts
 			(xy 48.26 43.18) (xy 48.26 55.88)
 		)
 		(stroke
@@ -1397,6 +1509,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 58.42) (xy 162.56 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb742de-1f39-461c-8543-0e00e6b7a89e")
+	)
+	(wire
+		(pts
 			(xy 162.56 26.67) (xy 162.56 43.18)
 		)
 		(stroke
@@ -1404,6 +1526,16 @@
 			(type default)
 		)
 		(uuid "5294318a-f6bb-49d6-b37d-c4eb3e2f5028")
+	)
+	(wire
+		(pts
+			(xy 30.48 50.8) (xy 30.48 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a4cd7e-4964-4cd1-bb9f-adaa726d727d")
 	)
 	(wire
 		(pts
@@ -1457,6 +1589,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 76.2) (xy 132.08 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6404fe90-00b3-4ed7-810b-74e687a0b3ae")
+	)
+	(wire
+		(pts
 			(xy 86.36 26.67) (xy 86.36 43.18)
 		)
 		(stroke
@@ -1464,6 +1606,16 @@
 			(type default)
 		)
 		(uuid "646482ce-722d-4373-86ae-dc1ff19266e4")
+	)
+	(wire
+		(pts
+			(xy 118.11 81.28) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c1980f-8fd1-4063-bde1-6eafdbb42dfc")
 	)
 	(wire
 		(pts
@@ -1514,6 +1666,16 @@
 			(type default)
 		)
 		(uuid "70ac8fc5-5586-42f4-892a-97c1d9885805")
+	)
+	(wire
+		(pts
+			(xy 33.02 58.42) (xy 35.56 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d4793e-ee45-4133-8be7-f44573cc0ba7")
 	)
 	(wire
 		(pts
@@ -1597,6 +1759,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 76.2) (xy 74.93 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b350f4-472a-4c7c-9a1d-dd4e5dd20009")
+	)
+	(wire
+		(pts
 			(xy 25.4 34.29) (xy 38.1 34.29)
 		)
 		(stroke
@@ -1657,6 +1829,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 50.8) (xy 157.48 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9112cfa8-9a11-4d98-822f-d7e58784df7b")
+	)
+	(wire
+		(pts
 			(xy 86.36 81.28) (xy 80.01 81.28)
 		)
 		(stroke
@@ -1674,6 +1856,16 @@
 			(type default)
 		)
 		(uuid "92e5c25e-76b2-4ee0-8734-b851ac4f7f17")
+	)
+	(wire
+		(pts
+			(xy 162.56 58.42) (xy 162.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ca8d48-b990-40da-8b33-b9256eadf3f9")
 	)
 	(wire
 		(pts
@@ -1777,6 +1969,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 58.42) (xy 35.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f55cad-6131-497f-8929-77a2d22a6c7d")
+	)
+	(wire
+		(pts
 			(xy 99.06 46.99) (xy 101.6 46.99)
 		)
 		(stroke
@@ -1834,6 +2036,16 @@
 			(type default)
 		)
 		(uuid "b9760784-c8b4-4eb7-9799-eb00acccca14")
+	)
+	(wire
+		(pts
+			(xy 30.48 53.34) (xy 27.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ccd94c-3286-4795-9b7d-03ca4a47aa76")
 	)
 	(wire
 		(pts
@@ -1937,7 +2149,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 55.88) (xy 162.56 81.28)
+			(xy 162.56 55.88) (xy 162.56 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1974,6 +2186,16 @@
 			(type default)
 		)
 		(uuid "dbd15dea-bc48-41da-8d75-8e44530bbfdb")
+	)
+	(wire
+		(pts
+			(xy 80.01 81.28) (xy 80.01 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcbde03e-bf52-4436-a5bd-28dca5279da8")
 	)
 	(wire
 		(pts
@@ -2107,13 +2329,23 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 55.88) (xy 35.56 81.28)
+			(xy 35.56 55.88) (xy 35.56 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fcf6bebb-18b5-4e7d-803a-35b7df0b7c90")
+	)
+	(wire
+		(pts
+			(xy 157.48 53.34) (xy 154.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd196852-6135-4f2f-843d-003dd58e8570")
 	)
 	(wire
 		(pts
@@ -3873,6 +4105,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 157.48 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fa8099c-a088-4354-b1f5-c7be835a8fb0")
+		(property "Reference" "SW36"
+			(at 157.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at 157.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:SW_MX_HS_CPG151101S11_1u"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "264eb9dd-55d2-48b0-9029-e70a8b838340")
+		)
+		(pin "2"
+			(uuid "25c995e8-6611-4c9f-a0d6-4e504eea04bf")
+		)
+		(instances
+			(project "le-colibri"
+				(path "/0223ea5f-ceb3-4f88-b9e9-255a375691f3"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small_Filled")
 		(at 129.54 38.1 180)
 		(unit 1)
@@ -4029,6 +4330,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 58.42 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39df5d61-8bf8-42d0-902b-8680498638ce")
+		(property "Reference" "SW31"
+			(at 58.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at 58.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:SW_MX_HS_CPG151101S11_1u"
+			(at 58.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 58.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d094850-dbe1-416b-b7ed-6b5c06fbfe6d")
+		)
+		(pin "2"
+			(uuid "6f0860d4-fdcb-43a6-bb4a-36a392ef48f3")
+		)
+		(instances
+			(project "le-colibri"
+				(path "/0223ea5f-ceb3-4f88-b9e9-255a375691f3"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small_Filled")
 		(at 110.49 76.2 180)
 		(unit 1)
@@ -4110,6 +4480,75 @@
 			(project "le-colibri"
 				(path "/0223ea5f-ceb3-4f88-b9e9-255a375691f3"
 					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 77.47 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c6a3fc2-cca1-4e3f-9aad-107569c3a4f3")
+		(property "Reference" "SW32"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:SW_MX_HS_CPG151101S11_1u"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e51e9152-0780-43b5-bc03-40e406ecef28")
+		)
+		(pin "2"
+			(uuid "66d526dc-88e5-4599-b072-8d71d39a65c6")
+		)
+		(instances
+			(project "le-colibri"
+				(path "/0223ea5f-ceb3-4f88-b9e9-255a375691f3"
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -5812,6 +6251,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 115.57 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87b8d9d3-cbe9-4e60-b476-6b07425d4bc2")
+		(property "Reference" "SW33"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:SW_MX_HS_CPG151101S11_1u"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf370c86-b732-4172-b880-6dc001cd3fe6")
+		)
+		(pin "2"
+			(uuid "b7c7cc2f-04b9-4898-8d59-e5e9ee3a1207")
+		)
+		(instances
+			(project "le-colibri"
+				(path "/0223ea5f-ceb3-4f88-b9e9-255a375691f3"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small_Filled")
 		(at 78.74 50.8 180)
 		(unit 1)
@@ -5893,6 +6401,75 @@
 			(project "le-colibri"
 				(path "/0223ea5f-ceb3-4f88-b9e9-255a375691f3"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 30.48 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c652b4a-dfdd-43ac-872a-efc676302146")
+		(property "Reference" "SW35"
+			(at 30.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at 30.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:SW_MX_HS_CPG151101S11_1u"
+			(at 30.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 30.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faf1f98f-89c0-4a89-9176-560a494ba2ce")
+		)
+		(pin "2"
+			(uuid "3b8471ea-891a-4801-9868-93f860ee0e09")
+		)
+		(instances
+			(project "le-colibri"
+				(path "/0223ea5f-ceb3-4f88-b9e9-255a375691f3"
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -7076,6 +7653,75 @@
 			(project "le-colibri"
 				(path "/0223ea5f-ceb3-4f88-b9e9-255a375691f3"
 					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 134.62 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9f0197c-6220-4b3c-9af5-f4191bebba4d")
+		(property "Reference" "SW34"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CPG151101S11"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:SW_MX_HS_CPG151101S11_1u"
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cc10a8f-f58c-4398-8508-aa5fc68f73c7")
+		)
+		(pin "2"
+			(uuid "500ff7fc-bbe1-4e72-a52c-3ad49c6000e6")
+		)
+		(instances
+			(project "le-colibri"
+				(path "/0223ea5f-ceb3-4f88-b9e9-255a375691f3"
+					(reference "SW34")
 					(unit 1)
 				)
 			)
