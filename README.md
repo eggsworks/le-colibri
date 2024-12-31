@@ -4,25 +4,29 @@ Le Colibri is a 30-key unibody split keyboard inspired by Le Chiffre and the Hum
 
 ![](photos/le-colibri.jpg)
 
+## Pre-Disclaimer
+This is a modified version of the original [le-colibri](https://github.com/eggsworks/le-colibri), with swapped options for the thumbs and the option for a 2u pinkie. The case is not yet adapted for the new layouts!
+
 ## Disclaimer
 
 This keyboard came to me in a dream so I had to bring it into the waking world. It is not necessarily good. But here it is.
 
 ## FAQ
 
-**Why not just [chiffchaff](https://github.com/kilipan/chiffchaff)?**  
+**Why not just [chiffchaff](https://github.com/kilipan/chiffchaff)?**
 Like I said, this keyboard was designed in a dream. The dreamt keyboard was not chiffchaff but something much worse, which you see here.
 
-**Can I use a regular Chiffre case or PCB?**  
-No, it is basically completely incompatible. See *Case* section below.
+**Can I use a regular Chiffre case or PCB?**
+No, it is basically completely incompatible. See *Case** section below.
 
 ## BOM
 
 - 30x SOD-123 1N4148 diodes
 - 30x Kailh MX hotswap sockets
-- One Seeduino XIAO (designed for RP2040, but will work with others -- maybe you can even make it wireless if you bodge a battery onto the NRF one!)
+- One Seeduino XIAO (designed for RP2040, but will work with others -- maybe you can even make it wireless if you bodge a battery onto the NRF one!**
 
 ## Case
+**The files in [case/](case/) are not compatible with the new layout options!**
 
 The switchplates are obviously incompatible with a normal Chiffre. The in-plane XIAO makes this keyboard incompatible with the bottom case. And the reduced number of keys would make it dumb to use the top, unless you like huge gaps. Custom case files can be found in [case/](case/).
 
